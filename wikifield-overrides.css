@@ -1,0 +1,9 @@
+.jira-wikifield .wiki-edit-toolbar > *
+{
+	display: none;
+}
+
+.jira-wikifield .wiki-edit-toolbar:before
+{
+	content: 'Markdown support enabled :)';
+}

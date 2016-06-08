@@ -1,5 +1,6 @@
 function hook()
 {
+	// https://github.com/FokkeZB/J2M
 	function toJ(input) {
 
 		input = input.replace(/^(.*?)\n([=-])+$/gm, function (match,content,level) {

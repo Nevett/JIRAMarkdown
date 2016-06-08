@@ -3,11 +3,11 @@
 
 	"name": "Fix JIRA",
 	"description": "",
-	"version": "0.1337",
+	"version": "0.1337.1",
 
 	"content_scripts": [
 		{
-			"matches": ["https://myunidays.atlassian.net/*"],
+			"matches": ["https://*.atlassian.net/*"],
 			"js": ["jira-hooks.js"]
 		}
 	]

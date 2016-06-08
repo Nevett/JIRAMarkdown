@@ -79,6 +79,8 @@ function hook()
 	});
 }
 
-var script = document.createElement('script');
-script.appendChild(document.createTextNode('('+ hook +')();'));
-(document.body || document.head || document.documentElement).appendChild(script);
+if (document.body.id === "jira") {
+	var script = document.createElement('script');
+	script.appendChild(document.createTextNode('('+ hook +')();'));
+	(document.body || document.head || document.documentElement).appendChild(script);
+}
